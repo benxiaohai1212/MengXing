@@ -1,0 +1,151 @@
+* {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0px;
+	padding: 0px
+	font-size:12px;
+	font-family:"宋体";
+	color: #1F1F1F;
+    font-size: 12px;
+}
+a {
+    color: #1F1F1F;
+    text-decoration: none;
+}
+html body * div.clear {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    clear: both;
+    display: block;
+    float: none;
+    font-size: 0;
+    height: 0;
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    visibility: hidden;
+    width: 0;
+}
+.home {
+	
+}
+
+/***********************************************************************************************************/
+/* top nav */
+.header {
+	/* height:70px; */
+	width:100%;
+	background:#fff;
+	/* border-bottom:2px solid red; */
+}
+.header .top {
+	width:980px;
+	margin:0px auto;
+	overflow:hidden;
+	/* border-bottom:2px solid red; */
+}
+.header .top .logo {
+	background:url('../images/logo.jpg') no-repeat scroll 95px center #FFF;
+	height:70px;
+	width:456px;
+	float:left;
+}
+.header .top .logo img {
+	margin-left:-10px;
+}
+.header .top .home {
+	/* line-height: 100px; */
+	text-align: right;
+	height: 50px;
+	padding-top:20px;
+	color: #c00;
+	letter-spacing: 1px;
+	overflow: hidden;
+	/* width: 980px; */
+}
+.header .top .home a {
+	/* padding:3px; */
+	font-size:14px;	
+	line-height: 30px;
+}
+.home a img {
+	height:18px;
+	width:24px;	
+	margin:0px 5px;
+}
+.header .nav {
+	height:35px;
+	line-height:35px;
+	width:980px;
+	/* margin:0px auto 0px; */
+	margin:2px auto 0px;
+	border:1px solid #DBDBDB;
+	-moz-border-radius:4px 4px 0px 0px;
+	-webkit-border-radius:4px 4px 0px 0px;
+	border-radius:4px 4px 0px 0px;
+	/* background: url("../images/guide_22.gif") repeat-x scroll 0 0 rgba(0, 0, 0, 0); */
+}
+.header .nav ul {
+	list-style: outside;
+	list-style-type: none;
+	background: url(../images/top-bg.jpg) repeat-x;//#F7F7F8;
+	-moz-border-radius:4px 4px 0px 0px;
+	-webkit-border-radius:4px 4px 0px 0px;
+	border-radius:4px 4px 0px 0px;
+	margin:0px;
+	padding:0px;
+}
+.header .nav ul li {
+	display: inline-block;
+	text-align:center;
+	/* width:100px; */
+	border-right:1px solid #DBDBDB;
+	margin-left:-6px;
+}
+.header .nav ul li:hover {
+	background-color: #2E38E8;	
+	color:#FFF;
+}	
+.header .nav ul li:last-child {
+	border:0;
+}
+.header .nav ul li:first-child {
+	-moz-border-radius:4px 0 0 0px;
+	-webkit-border-radius:4px 0 0 0px;
+	border-radius:4px 0 0 0px;
+	margin:0px;
+	
+}
+/* .header .nav ul li:hover {
+	text-decoration: none;
+	background: url("../images/nav_li_hover.gif") no-repeat center center red;
+	color:#000;
+} */
+.header .nav ul li a {
+	text-decoration: none;
+	color:#333;
+	padding:10px 25px;
+	/* -moz-border-radius:4px 0 0 0px;
+	-webkit-border-radius:4px 0 0 0px;
+	border-radius:4px 0 0 0px; */
+}
+.header .nav ul li a:hover {
+	text-decoration: none;
+	color:#FFF;
+	/* -moz-border-radius:8px 0 0 8px;
+	-webkit-border-radius:8px 0 0 8px;
+	border-radius:8px 0 0 8px; */
+	margin-left:0px;
+}
+/***********************************************************************************************************/
+/* .gradient{
+    background:-moz-linear-gradient(top, red, rgba(0, 0, 255, 0.5));  
+	filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=red,endcolorstr=blue,gradientType=1);
+    -ms-filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=red,endcolorstr=blue,gradientType=1);
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#ff0000), to(rgba(0, 0, 255, 0.5)));  
+} */
+
